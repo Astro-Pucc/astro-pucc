@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Astro Pucc</title>
+<title>Astro Pucc — Mindful Reading</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -213,14 +213,14 @@
 
 <header>
   <div class="nav">
-    <div class="wordmark">Astro Pucc <span>Éber olvasat</span></div>
+    <div class="wordmark">Astro Pucc <span>Mindful Reading</span></div>
     <nav class="links">
-      <a href="#napi-eg">Az Állatöv</a>
-      <a href="#rolunk">Filozófia</a>
+      <a href="#zodiac">The Zodiac</a>
+      <a href="#about">Philosophy</a>
       <a href="#blog">Blog</a>
-      <a href="#">Bolt <span class="shop-badge">hamarosan</span></a>
+      <a href="#">Shop <span class="shop-badge">coming soon</span></a>
       <span style="display:flex;gap:6px;opacity:.7;">
-        <a href="#" style="color:var(--brass-soft);pointer-events:none;">HU</a>·<a href="en/index.html">EN</a>
+        <a href="../index.html">HU</a>·<a href="#" style="color:var(--brass-soft);pointer-events:none;">EN</a>
       </span>
     </nav>
   </div>
@@ -228,53 +228,53 @@
 
 <section class="hero">
   <div class="wrap">
-    <div class="eyebrow">Ingyenes · frissül minden héten</div>
-    <h1 class="headline">A csillagok komolyan <em>és</em> viccesen —<br>attól függ, melyik napodat éled.</h1>
-    <p class="hero-sub">Az Astro Pucc egy hely, ahol az asztrológia néha tudományos igényű magyarázat, néha egy jó belengetés arról, hogy a Merkúr retrográd miért nem a te hibád — de a Bakoké biztosan.</p>
+    <div class="eyebrow">Free · updated weekly</div>
+    <h1 class="headline">The stars, taken seriously <em>and</em> taken lightly —<br>depending on the day you're having.</h1>
+    <p class="hero-sub">Astro Pucc is a place where astrology is sometimes a careful explanation, and sometimes just a good, honest callout about why Mercury retrograde isn't your fault — but it's definitely a Capricorn thing.</p>
   </div>
 
-  <div class="ephemeris" id="napi-eg">
+  <div class="ephemeris" id="zodiac">
     <div class="wrap">
       <div class="ephemeris-inner">
-        <span class="eph-label">A tizenkét jegy — egy karakter, egy mondat</span>
+        <span class="eph-label">The twelve signs — one character, one line</span>
 
         <div class="sign"><span class="glyph">♈</span><span class="deg">03°</span>
-          <div class="tooltip">Kos — nem kérdez, cselekszik</div></div>
+          <div class="tooltip">Aries — doesn't ask, just acts</div></div>
         <div class="sign"><span class="glyph">♉</span><span class="deg">17°</span>
-          <div class="tooltip">Bika — inkább holnap dönt</div></div>
+          <div class="tooltip">Taurus — would rather decide tomorrow</div></div>
         <div class="sign"><span class="glyph">♊</span><span class="deg">24°</span>
-          <div class="tooltip">Iker — két véleménye van, mindkettő igaz</div></div>
+          <div class="tooltip">Gemini — holds two opinions, both true</div></div>
         <div class="sign"><span class="glyph">♋</span><span class="deg">09°</span>
-          <div class="tooltip">Rák — érzékeny, de számon tartja</div></div>
+          <div class="tooltip">Cancer — sensitive, but keeping score</div></div>
         <div class="sign"><span class="glyph">♌</span><span class="deg">28°</span>
-          <div class="tooltip">Oroszlán — belép, mielőtt köszönne</div></div>
+          <div class="tooltip">Leo — walks in before it says hello</div></div>
         <div class="sign"><span class="glyph">♍</span><span class="deg">11°</span>
-          <div class="tooltip">Szűz — már javította a hibád</div></div>
+          <div class="tooltip">Virgo — already fixed your typo</div></div>
         <div class="sign"><span class="glyph">♎</span><span class="deg">02°</span>
-          <div class="tooltip">Mérleg — 40 perce nézi az étlapot</div></div>
+          <div class="tooltip">Libra — forty minutes into the menu</div></div>
         <div class="sign"><span class="glyph">♏</span><span class="deg">19°</span>
-          <div class="tooltip">Skorpió — mindent tud, ritkán mondja el</div></div>
+          <div class="tooltip">Scorpio — knows everything, rarely says</div></div>
         <div class="sign"><span class="glyph">♐</span><span class="deg">06°</span>
-          <div class="tooltip">Nyilas — foglalt reptéri jegyet, terv nélkül</div></div>
+          <div class="tooltip">Sagittarius — booked the flight, no plan</div></div>
         <div class="sign"><span class="glyph">♑</span><span class="deg">23°</span>
-          <div class="tooltip">Bak — a pihenés is munka nála</div></div>
+          <div class="tooltip">Capricorn — even rest is a task</div></div>
         <div class="sign"><span class="glyph">♒</span><span class="deg">14°</span>
-          <div class="tooltip">Vízöntő — máshogy csinálja, elvből</div></div>
+          <div class="tooltip">Aquarius — does it differently, on principle</div></div>
         <div class="sign"><span class="glyph">♓</span><span class="deg">08°</span>
-          <div class="tooltip">Halak — álmodik, aztán mégis odaér</div></div>
+          <div class="tooltip">Pisces — dreams, then somehow arrives anyway</div></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="about" id="rolunk">
+<section class="about" id="about">
   <div class="wrap">
     <div class="about-grid">
       <div>
-        <h2>Nem hisszük, hogy a csillagok döntenek helyetted.</h2>
-        <p>Azt viszont igen, hogy érdemes időnként megállni, és megnézni, mit mutat az égi óra — nem azért, mert onnantól minden meg van írva, hanem mert egy jó horoszkóp jobb kérdéseket ad, mint válaszokat.</p>
-        <p>Az Astro Pucc két hangon szólal meg. Az egyik alaposan utánajár egy témának — bolygóállásnak, holdciklusnak, azok mérhető hatásának. A másik nem finomkodik: kimondja, amit mindenki gondol a jegyéről, csak épp senki nem meri a szemébe.</p>
-        <p>Egyelőre teljesen ingyenes, és az is marad, amíg tart. Később talán lesz belőle több is — de az az út majd magától kirajzolódik.</p>
+        <h2>We don't believe the stars decide for you.</h2>
+        <p>We do believe, though, that it's worth pausing now and then to see what the celestial clock is showing — not because everything is written from that point on, but because a good horoscope gives you better questions, not answers.</p>
+        <p>Astro Pucc speaks in two voices. One does its homework — on a planetary position, a lunar cycle, its measurable effects. The other doesn't sugarcoat it — it says out loud what everyone already thinks about their sign, but no one dares say to their face.</p>
+        <p>For now it's completely free, and it'll stay that way for as long as that lasts. Later there may be more to it — but that path will reveal itself on its own.</p>
       </div>
       <div class="diagram">
         <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
@@ -305,14 +305,14 @@
 <div class="split">
   <div class="split-col serious">
     <div class="wrap" style="padding:0;">
-      <span class="split-tag">Komoly</span>
-      <p>Bolygóállások, ciklusok, a valódi asztronómiai háttér — közérthetően, forrásokkal, túlzások nélkül. Ha tudni akarod, mit jelent valójában a Merkúr retrográd, itt megtalálod.</p>
+      <span class="split-tag">Serious</span>
+      <p>Planetary positions, cycles, the actual astronomical background — explained clearly, with sources, without exaggeration. If you want to know what Mercury retrograde really means, this is where you'll find it.</p>
     </div>
   </div>
   <div class="split-col funny">
     <div class="wrap" style="padding:0;">
-      <span class="split-tag">Vicces</span>
-      <p>A jegyed viselkedik, ahogy viselkedik, és ideje, hogy valaki ezt hangosan kimondja. Éles, önironikus, időnként fájdalmasan pontos jegyleírások.</p>
+      <span class="split-tag">Funny</span>
+      <p>Your sign behaves the way it behaves, and it's about time someone said it out loud. Sharp, self-aware, occasionally painfully accurate sign profiles.</p>
     </div>
   </div>
 </div>
@@ -320,62 +320,62 @@
 <section class="blog" id="blog">
   <div class="wrap">
     <div class="section-head">
-      <h2>A blog</h2>
-      <div class="section-note">6 bejegyzés · frissítve hetente</div>
+      <h2>The Blog</h2>
+      <div class="section-note">6 posts · updated weekly</div>
     </div>
 
     <div class="post">
-      <div class="post-meta">jún. 28.</div>
+      <div class="post-meta">Jun 28</div>
       <div class="post-body">
-        <h3>Nem az univerzum van ellened — csak épp Merkúr retrográd</h3>
-        <p>Amit a jelenség valójában jelent, és amit tényleg érdemes emiatt átgondolni — pánik nélkül.</p>
+        <h3>It's not the universe against you — it's just Mercury retrograde</h3>
+        <p>What the phenomenon actually means, and what's genuinely worth reconsidering because of it — without the panic.</p>
       </div>
-      <div class="post-tag serious">Komoly</div>
+      <div class="post-tag serious">Serious</div>
     </div>
 
     <div class="post">
-      <div class="post-meta">jún. 24.</div>
+      <div class="post-meta">Jun 24</div>
       <div class="post-body">
-        <h3>Bakokról: amikor a munkamánia spirituális útkeresésnek álcázza magát</h3>
-        <p>Igen, rólad van szó. Nem, a túlóra nem karmikus lecke.</p>
+        <h3>On Capricorns: when workaholism disguises itself as a spiritual quest</h3>
+        <p>Yes, we're talking about you. No, overtime is not a karmic lesson.</p>
       </div>
-      <div class="post-tag funny">Vicces</div>
+      <div class="post-tag funny">Funny</div>
     </div>
 
     <div class="post">
-      <div class="post-meta">jún. 19.</div>
+      <div class="post-meta">Jun 19</div>
       <div class="post-body">
-        <h3>Holdciklus és alvásminőség: mit mutatnak tényleg a kutatások</h3>
-        <p>Egy témát, amit sokan félremagyaráznak, most a tényleges adatok alapján nézünk végig.</p>
+        <h3>Moon cycles and sleep quality: what the research actually shows</h3>
+        <p>A topic a lot of people get wrong — let's go through it based on the actual data.</p>
       </div>
-      <div class="post-tag serious">Komoly</div>
+      <div class="post-tag serious">Serious</div>
     </div>
 
     <div class="post">
-      <div class="post-meta">jún. 14.</div>
+      <div class="post-meta">Jun 14</div>
       <div class="post-body">
-        <h3>Skorpió heti: ma senkivel nem beszélsz, és ez teljesen rendben van</h3>
-        <p>A hallgatás nem duzzogás. Vagy néha mégis, de azt is megérdemled.</p>
+        <h3>Scorpio of the week: you're not talking to anyone today, and that's fine</h3>
+        <p>Silence isn't sulking. Well — sometimes it is, but you're allowed that too.</p>
       </div>
-      <div class="post-tag funny">Vicces</div>
+      <div class="post-tag funny">Funny</div>
     </div>
 
     <div class="post">
-      <div class="post-meta">jún. 9.</div>
+      <div class="post-meta">Jun 9</div>
       <div class="post-body">
-        <h3>A születési horoszkóp olvasásának alapjai — kezdőknek</h3>
-        <p>Nap, Hold, aszcendens: mit jelent valójában a három legtöbbet emlegetett fogalom.</p>
+        <h3>The basics of reading a birth chart — for beginners</h3>
+        <p>Sun, Moon, Ascendant: what the three most-mentioned terms actually mean.</p>
       </div>
-      <div class="post-tag serious">Komoly</div>
+      <div class="post-tag serious">Serious</div>
     </div>
 
     <div class="post">
-      <div class="post-meta">jún. 3.</div>
+      <div class="post-meta">Jun 3</div>
       <div class="post-body">
-        <h3>Mérleg-válság: döntened kellene, de inkább 40 percig nézed az étlapot</h3>
-        <p>Egy jegy, aminek a habozása már-már életforma.</p>
+        <h3>Libra crisis: you should decide, but you'd rather stare at the menu for 40 minutes</h3>
+        <p>A sign whose hesitation is basically a lifestyle at this point.</p>
       </div>
-      <div class="post-tag funny">Vicces</div>
+      <div class="post-tag funny">Funny</div>
     </div>
 
   </div>
@@ -384,8 +384,8 @@
 <footer>
   <div class="wrap">
     <div class="footer-grid">
-      <div class="footer-note"><b>Astro Pucc</b> — jelenleg teljes egészében ingyenes. A jövőben bővülhet saját termékekkel, egyelőre a tartalomra koncentrálunk.</div>
-      <div class="footer-right">© 2026 Astro Pucc<br>Készült szeretettel, égi segítséggel</div>
+      <div class="footer-note"><b>Astro Pucc</b> — currently entirely free. It may grow to include its own products in the future; for now, we're focused on the content.</div>
+      <div class="footer-right">© 2026 Astro Pucc<br>Made with love, and a little celestial help</div>
     </div>
   </div>
 </footer>
